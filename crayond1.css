@@ -405,87 +405,75 @@ h3 {
 .advisor-heading {
     margin-bottom:50px;
 }
+/* laststyle */
 /* Reset default styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+* /* Main wrapper with black background */
+/* Main wrapper with black background */
+.main-container {
+    background-color: black;
     padding: 20px;
-  }
-  
-  /* New container to hold all divisions */
-  .container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px; 
-    flex-wrap: wrap; 
-    width: 100%;
-  }
-  
-
-  .division {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: white;
-    flex: 1;
-    min-width: 200px;
-  }
-  
-  
-  .first .icon {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-  
-  .first p {
-    margin-bottom: 10px;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  .icons {
     display: flex;
     justify-content: center;
-    gap: 10px;
-  }
-  
-  .icons span {
+}
+
+/* Container to hold all four divisions in a single row */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px; /* Equal spacing between divisions */
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* General styling for all divisions */
+.division {
+    background-color: black; /* Same as the background to blend */
+   
+    padding: 20px;
+    text-align: left;
+}
+
+/* First Division */
+.first {
+    width: 285px;
+    height: 169px;
+}
+
+/* Second Division */
+.second {
+    width: 127px;
+    height: 262px;
+}
+
+/* Third Division */
+.third {
+    width: 133px;
+    height: 144px;
+}
+
+/* Fourth Division */
+.fourth {
+    width: 233px;
+    height: 162px;
+}
+
+/* First Division: Icon and Text aligned together */
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Small spacing */
+}
+
+.icon {
     font-size: 24px;
-  }
-  
-  /* Second division: Quick Links */
-  .second p {
-    margin-bottom: 10px;
-    font-size: 16px;
+}
+
+.brand {
+    font-size: 20px;
     font-weight: bold;
-  }
-  
-  /* Third division: Advisor Portal */
-  .third p {
-    margin-bottom: 10px;
-    font-size: 16px;
-  }
-  
-  /* Fourth division: Contact Info */
-  .fourth p {
-    margin-bottom: 10px;
-    font-size: 16px;
-  }
-  
-
-
-
-
-
+    margin: 0;
+}
 
 
 
