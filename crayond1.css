@@ -247,7 +247,7 @@ margin-top:40px;
     padding: 20px;
     background-color: #f8f9fa;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+ 
 }
 
 .investment-img {
@@ -282,7 +282,7 @@ h3 {
     padding: 20px;
     background-color: #f8f9fa;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 h3 {
@@ -311,7 +311,8 @@ h3 {
     line-height: 37px;
     letter-spacing: 0%;
     -text-align: center;
-    margin-top: -70px;
+    margin-top: -40px;
+    margin-left: 10px;
 }
 
 /* left of the image placed */
@@ -339,10 +340,10 @@ h3 {
 .text-container {
     background-color: #f9f9f9;
     padding: 24px;
-    line-height: :1.5px;
+    
     border-radius: 10px;
    
-    flex: 1; /* Ensures equal height */
+    flex: 1; 
 }
 
 /* Step box styling */
@@ -350,27 +351,53 @@ h3 {
     background-color: #CBF2E0;
     font-family: 'Poppins', sans-serif;
     color: #008545;
-    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-weight: bold;
     display: inline-block;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    border-radius: 17px;
+    margin-bottom: 15px;
 }
 
 /* Right side (image) */
 .right-content {
-    width: 50%; /* Takes 50% of screen width */
+    width: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Image styling */
+
 .workers {
-    width: auto; /* Ensures image covers the right side */
-    height:auto; /* Matches height of left content */
-    object-fit: cover; /* Prevents image distortion */
+    width: auto; 
+    height:auto; 
+    margin-left:-120px;
+    object-fit: cover; 
 }
+.ball {
+    font-family: 'Gilroy', sans-serif; 
+    font-weight: 550px;
+    margin-bottom: 20px;
+}
+.adjustment {
+    font-family: 'Gilroy', sans-serif; 
+    font-weight: 540px; 
+    color:#555555;
+    font-size: 18px;
+   line-height:25px;
+}
+.font {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: bold; 
+    margin-top:260px;
+
+}
+.advisor-heading {
+    margin-bottom:50px;
+}
+
 
 
 
