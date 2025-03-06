@@ -10,7 +10,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
-    /* background-color: goldenrod; */
+    background-color: #FFFFFF;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
 }
 /* .firstslide {
     background-color: goldenrod;
@@ -27,7 +31,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #333;
+   
 }
 
 
@@ -108,7 +112,7 @@
 }
 
 
-.container {
+.containers {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -276,7 +280,7 @@ h3 {
     display: flex; /* Places divs in the same row */
     justify-content: space-between; /* Distributes space evenly */
     align-items: flex-start; /* Aligns items at the top */
-    gap: 30px; /* Adjust space between boxes */
+    gap: 15px; /* Adjust space between boxes */
     width: 90%;
     margin: auto;
 }
@@ -421,7 +425,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 5px; /* Equal spacing between divisions */
+    gap: 12px; /* Equal spacing between divisions */
     max-width: 1200px;
     width: 100%;
     background-color:#0D1226;
@@ -433,6 +437,8 @@ h3 {
     color: white; /* White text */
     padding: 20px;
     text-align: left;
+    flex-grow: 1;
+    
 }
 
 /* First Division */
