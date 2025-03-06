@@ -227,6 +227,10 @@ margin-top:40px;
     height: 270px;
     object-fit: 10px;; 
 }
+.overall {
+    /* background-color: goldenrod; */
+    height:600px;
+}
 
 .investment-container {
     display: flex;
@@ -312,7 +316,7 @@ h3 {
     letter-spacing: 0%;
     -text-align: center;
     margin-top: -40px;
-    margin-left: 10px;
+    margin-left: -10px;
 }
 
 /* left of the image placed */
@@ -323,7 +327,9 @@ h3 {
     justify-content: space-between; /* Keeps left and right sections apart */
     align-items: stretch; /* Stretches both sides to equal height */
     padding: 20px;
-    height: 100vh; /* Makes sure everything takes full height */
+    height: 700px; /* Makes sure everything takes full height */
+    
+    
 }
 
 /* Left side container (3 text divisions) */
