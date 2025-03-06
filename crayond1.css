@@ -470,6 +470,7 @@ h3 {
     display: flex;
     align-items: center;
     gap: 5px; /* Small spacing */
+    margin-bottom:25px;
 }
 
 .icon {
@@ -480,6 +481,11 @@ h3 {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
+}
+.imageicon {
+    width: 40px;
+height: 32px;
+
 }
 
 
