@@ -327,13 +327,15 @@ h3 {
     display: flex;
     flex-direction: column; /* Stacks the three divisions */
     justify-content: space-between; /* Ensures equal spacing */
-    gap: 20px; /* Adds space between the three boxes */
+    gap: 20px; 
+    margin-left:50px;/* Adds space between the three boxes */
 }
 
 /* Individual text boxes */
 .text-container {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 24px;
+    line-height: :1.5px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1; /* Ensures equal height */
