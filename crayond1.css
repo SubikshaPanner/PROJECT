@@ -306,14 +306,64 @@ h3 {
     font-size: 28px;
     line-height: 37px;
     letter-spacing: 0%;
-    text-align: center;
-    margin-top: -90px;
+    -text-align: center;
+    margin-top: -70px;
 }
-.workers {
-    margin-top:-300px;
-    margin-left: 400px;px;
-}
+
 /* left of the image placed */
+
+/* Wrapper for main layout */
+.wrapper {
+    display: flex;
+    justify-content: space-between; /* Keeps left and right sections apart */
+    align-items: stretch; /* Stretches both sides to equal height */
+    padding: 20px;
+    height: 100vh; /* Makes sure everything takes full height */
+}
+
+/* Left side container (3 text divisions) */
+.left-content {
+    width: 45%; /* Takes 45% of screen width */
+    display: flex;
+    flex-direction: column; /* Stacks the three divisions */
+    justify-content: space-between; /* Ensures equal spacing */
+    gap: 20px; /* Adds space between the three boxes */
+}
+
+/* Individual text boxes */
+.text-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Ensures equal height */
+}
+
+/* Step box styling */
+.step-box {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Right side (image) */
+.right-content {
+    width: 50%; /* Takes 50% of screen width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image styling */
+.workers {
+    width: auto; /* Ensures image covers the right side */
+    height:auto; /* Matches height of left content */
+    object-fit: cover; /* Prevents image distortion */
+}
 
 
 
