@@ -515,7 +515,8 @@ height: 32px;
 .footer {
     display: flex;      /* Aligns items in a row */
     gap: 370px;         /* Adds EXACTLY 12px space between items */
-    margin-top: 20px;  /* Adds spacing from hr */
+    margin-top: 30px;  
+    margin-bottom: 40px;;/* Adds spacing from hr */
 }
 
 .footer-text {
