@@ -418,6 +418,12 @@ h3 {
     padding: 20px;
     display: flex;
     justify-content: center;
+    margin:auto;
+    
+    
+}
+.new {
+    width:90%;
 }
 
 /* Container to hold all four divisions in a single row */
@@ -425,10 +431,15 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 12px; /* Equal spacing between divisions */
+    flex-wrap:wrap;
+    gap: 5px; /* Equal spacing between divisions */
     max-width: 1200px;
     width: 100%;
+    /* background-color: goldenrod; */
     background-color:#0D1226;
+    
+   
+   
 }
 
 /* General styling for all divisions */
@@ -438,25 +449,28 @@ h3 {
     padding: 20px;
     text-align: left;
     flex-grow: 1;
+    margin:auto;
     
 }
 
 /* First Division */
 .first {
-    width: 285px;
+    width: 205px;
     height: 169px;
 }
 
 /* Second Division */
 .second {
     width: 127px;
-    height: 262px;
+    height: 250px;
+    margin-top:100px;
 }
 
 /* Third Division */
 .third {
     width: 133px;
     height: 144px;
+   
 }
 
 /* Fourth Division */
@@ -487,6 +501,36 @@ h3 {
 height: 32px;
 
 }
+.lite{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    color: #9497A1;
+}
+.text {
+    color: #C0C0C0;
+}
+.bright {
+    color: #FFFFFF;
+}
+.footer {
+    display: flex;      /* Aligns items in a row */
+    gap: 370px;         /* Adds EXACTLY 12px space between items */
+    margin-top: 20px;  /* Adds spacing from hr */
+}
+
+.footer-text {
+    font-size: 14px;  /* Adjusts font size */
+    color: gray;      /* Light gray text */
+    margin: 0;        /* Removes default margin */
+}
+
+
+
+
+
+
+
+
 
 
 
