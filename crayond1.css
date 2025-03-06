@@ -218,12 +218,14 @@ margin-top:40px;
     margin-left: auto; 
     margin-right: auto; 
     width: 95%; 
+    margin-bottom:190px;
+    
 }
 
 .video, .videoi, .video3 {
     width: 32%; 
     height: 270px;
-    object-fit: cover; 
+    object-fit: 10px;; 
 }
 
 .investment-container {
@@ -234,7 +236,9 @@ margin-top:40px;
     width: 90%;
     margin: auto;
     flex-wrap: wrap;
+    margin-bottom:50px;
 }
+
 
 .investment-box {
     flex: 1;
@@ -337,14 +341,15 @@ h3 {
     padding: 24px;
     line-height: :1.5px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
     flex: 1; /* Ensures equal height */
 }
 
 /* Step box styling */
 .step-box {
-    background-color: green;
-    color: white;
+    background-color: #CBF2E0;
+    font-family: 'Poppins', sans-serif;
+    color: #008545;
     padding: 10px;
     font-weight: bold;
     display: inline-block;
