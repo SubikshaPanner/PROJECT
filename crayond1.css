@@ -410,7 +410,7 @@ h3 {
 * /* Main wrapper with black background */
 /* Main wrapper with black background */
 .main-container {
-    background-color: black;
+    background-color:#0D1226;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -421,15 +421,16 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 15px; /* Equal spacing between divisions */
+    gap: 5px; /* Equal spacing between divisions */
     max-width: 1200px;
     width: 100%;
+    background-color:#0D1226;
 }
 
 /* General styling for all divisions */
 .division {
-    background-color: black; /* Same as the background to blend */
-   
+    background-color:#0D1226; 
+    color: white; /* White text */
     padding: 20px;
     text-align: left;
 }
