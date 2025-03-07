@@ -9,6 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* font-family: "Poppins";
+    font-weight: 400px; */
     padding: 10px 40px;
     background-color: #FFFFFF;
     position:fixed;
@@ -51,7 +53,7 @@
 .menu-container {
     display: flex;
     font-family: "Poppins";
-    font-weight: 250;
+    font-weight: 500gitpx;
     gap: 20px;
     justify-content: center;
     
