@@ -50,8 +50,11 @@
 
 .menu-container {
     display: flex;
+    font-family: "Poppins";
+    font-weight: 250;
     gap: 20px;
     justify-content: center;
+    
 }
 
 
@@ -78,28 +81,30 @@
 
 
 .login-btn {
-    border: 2px solid blue;
-    background-color: white;
-    color: blue;
+    border: 1px solid #5978FF;
+    background-color: #FFFFFF;
+    color: #5978Ff ;
     font-size: 16px;
-    font-weight: 600;
-    padding: 8px 20px;
-    border-radius: 5px;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .login-btn:hover {
-    background-color: blue;
-    color: white;
+    background-color: #5978Ff ;
+    color: #FFFFFF;
 }
 
 .get-started-btn {
-    border: 2px solid blue;
-    background-color:white;
-    color: blue;
+    border: 1px solid #5978Ff;
+    background-color:#FFFFFF;
+    color: #5978Ff;
     font-size: 16px;
-    font-weight: 600;
+    font-family: "Poppins";
+    font-weight: 500;
     padding: 8px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -107,8 +112,8 @@
 }
 
 .get-started-btn:hover {
-    background-color: blue;
-    color: white;
+    background-color:#5978Ff ;
+    color: #FFFFFF;
 }
 
 
@@ -196,6 +201,10 @@ letter-spacing: 0%;
 
 margin-top:40px;
 }
+body::-webkit-scrollbar {
+    display:
+}
+
 .Explore {
     
         margin-top: 30px;
@@ -404,11 +413,69 @@ h3 {
     font-family: 'Gilroy', sans-serif;
     font-weight: bold; 
     margin-top:260px;
-
 }
 .advisor-heading {
     margin-bottom:50px;
 }
+/* last before slide */
+.line {
+    font-family: "Poppins";
+    font-weight: bold;
+    padding: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* laststyle */
 /* Reset default styling */
 * /* Main wrapper with black background */
@@ -516,25 +583,25 @@ height: 32px;
     font-family: "Poppins";
 }
 .footer {
-    display: flex;      /* Aligns items in a row */
-    gap: 370px;         /* Adds EXACTLY 12px space between items */
-    margin-top: 30px;  
-    margin-bottom: 40px;;/* Adds spacing from hr */
-}
+        display: flex;   
+        padding: 20px;
+        gap: 600px;
+       
+    }
 
-.footer-text {
-    font-size: 14px;  /* Adjusts font size */
-    color: gray;      /* Light gray text */
-    margin: 0;        /* Removes default margin */
-}
+    .footer-left {
+        white-space: nowrap; 
+        gap:25px/* Prevents text wrapping */
+    }
 
+    .footer-right {
+        display: flex;
+        gap: 55px; /* Space between "Privacy Policy" and "Terms of Use" */
+    }
 
-
-
-
-
-
-
-
+    .footer-text {
+        font-size: 16px; /* Ensures text is readable */
+        color:#C0C0C0; /* Ensures visibility */
+    }
 
 
