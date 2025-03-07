@@ -1,5 +1,6 @@
 
-* {
+
+@import url (https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap%27);* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,7 +53,7 @@
 
 .menu-container {
     display: flex;
-    font-family: "Poppins";
+   
     font-weight: 500px;
     gap: 20px;
     justify-content: center;
@@ -124,14 +125,20 @@
     align-items: center;
     justify-content: space-between;
     margin: 110px;
-    background-color: #F7F9FF;
+    background-color: goldenrod;
+    left:0;
+    top:0;
+    margin-top:10px;
+    width:1200px;
+    height:750px;
 }
 
 
 .hero-section {
     width: 600px;
+
     text-align: left;
-    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 48px;
     line-height: 64px;
@@ -149,15 +156,15 @@
 }
 
 .star {
-   margin-left:-20px;
-   margin-bottom:-20px;
+   margin-right:1px;
+   margin-top:1px;
 }
 .Vector {
     margin-left:290px;
 }
 
 .blue-text {
-    color: blue;
+    color:#5978Ff ;
 }
 
 
@@ -179,7 +186,9 @@
     width: 520px;
     height: 425px;
     position: absolute;
-    margin-left: -50px;
+    margin-right: 20px;
+    margin-top: 1px;
+    margin:0;
     top: 220px;
     left: 713px;
 }
@@ -212,7 +221,7 @@ body::-webkit-scrollbar {
         margin-top: 30px;
         padding: 12px 20px;
         border: none;
-        background-color: blue;
+        background-color: #5978Ff ;
         color: white;
         font-size: 16px;
         cursor: pointer;
@@ -284,8 +293,9 @@ h3 {
 
 .investment-text {
     font-size: 18px;
-    color: #333;
+   
     line-height: 1.5;
+    width:300px;
 }
 .investment-containers {
     display: flex; /* Places divs in the same row */
@@ -312,8 +322,9 @@ h3 {
 
 .investment {
     font-size: 16px;
-    color: #333;
+    
     line-height: 1.5;
+    width:310px;
 }
 .investment-imag {
     width: 48px;
