@@ -1,6 +1,6 @@
 
 
-@import url (https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap%27);* {
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap%27);* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,10 +20,12 @@
     font-weight: 400px; */
     padding: 10px 40px;
     background-color: #FFFFFF;
-    position:fixed;
+    position:sticky;
     top:0;
     left:0;
     width:100%;
+    z-index: 1000;
+    /* align-items: center; */
 }
 /* .firstslide {
     background-color: goldenrod;
@@ -45,8 +47,8 @@
 
 
 .image-wrapper {
-    position: relative;
     display: flex;
+    position: sticky;
     align-items: center;
 }
 
@@ -160,8 +162,8 @@
 }
 
 .star {
-   margin-right:1px;
-   margin-top:1px;
+    margin-left: -31px;
+    margin-bottom:-30px ;
 }
 .Vector {
     margin-left:290px;
@@ -197,15 +199,17 @@
     left: 713px;
 }
 
+
 /* Text Content Adjustments */
 .text-content {
     width: 545px;
     height: 462px;
     top: 217.07px;
     left: 110.73px;
+
 }
 .features {
-    width: 412;
+width: 412;
 height: 34;
 top: 310px;
 font-family: Gilroy-Medium;
@@ -213,7 +217,6 @@ font-weight: 400;
 font-size: 18px;
 line-height: 24px;
 letter-spacing: 0%;
-
 margin-top:40px;
 }
 body::-webkit-scrollbar {
@@ -240,15 +243,19 @@ body::-webkit-scrollbar {
     margin-bottom: -10px;
     margin-left: 10px;
 }
+input[type="checkbox"] {
+    
+}
 .video-container {
-    display: flex; 
+    display:flex; 
     justify-content: space-between; 
     align-items: center; 
-    gap: 10px; 
+    gap: 10px;
+    /* justify-content: center;  */
     margin-left: auto; 
     margin-right: auto; 
     width: 95%; 
-    margin-bottom:190px;
+    margin-bottom: 190px;
     
 }
 
