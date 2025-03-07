@@ -502,15 +502,18 @@ height: 32px;
 
 }
 .lite{
-    font-family: 'Gilroy';
-    font-size: 18px;
+    font-family: 'Poppins';
+    font-size: 16px;
     color: #9497A1;
 }
 .text {
     color: #C0C0C0;
+    font-family: "Poppins";
 }
 .bright {
     color: #FFFFFF;
+    
+    font-family: "Poppins";
 }
 .footer {
     display: flex;      /* Aligns items in a row */
