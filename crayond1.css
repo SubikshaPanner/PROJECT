@@ -27,9 +27,7 @@
     z-index: 1000;
     /* align-items: center; */
 }
-/* .firstslide {
-    background-color: goldenrod;
-} */
+
 
 .fynro-container {
     display: flex;
@@ -199,11 +197,10 @@
 
 .midtext {
     padding:80px;
-    /* margin-bottom: 70px; 
-    margin-top:40px; */
+    
 }
 
-/* Text Content Adjustments */
+
 .text-content {
     width: 545px;
     height: 462px;
@@ -246,47 +243,82 @@ body::-webkit-scrollbar {
     margin-bottom: -10px;
     margin-left: 10px;
 }
-/* input[type="checkbox"] {
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background-color: lightgray;
-    border:2px solid gray;
-    border-radius: 50%;
-    cursor: pointer;
-     
-}
-input[type="checkbox"]:checked {
- 
-        background-color:green;
-        border-color: darkgreen;
-    } */
 
-    /* Wrapper for the iframe to clip rounded corners */
-.video-wrapper {
-    width: 900px;
-    height: 525px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 12px;
-    overflow: hidden; /* Ensures border-radius applies correctly */
-    margin: auto; /* Centers the video */
-}
-
-/* Styling the iframe */
-.video-frame {
+.video-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; /* Centers video, keeps spacing */
     width: 100%;
-    height: 100%;
-    border-radius: 12px; /* For additional styling (won't clip without wrapper) */
-    border: none;
+    max-width: 1600px; 
+    margin: auto;
+    padding: 0 100px; 
 }
+
+/* Ensures iframe video has correct width and height */
+.video-wrapper {
+    width: 1220px;  /* Your exact video width */
+    height: 525px;  /* Your exact video height */
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;  /* Prevents shrinking */
+}
+
+/* Fixing video iframe */
+.video-frame {
+    width: 950px;
+    height: 525px;
+    border: none;
+    border-radius:20px;
+    
+}
+
+/* Left bar stays at the far left */
+.leftbar {
+    width: 84.44px;
+    height: 633.12px;
+    border-width: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0; 
+}
+
+/* Right bar stays at the far right */
+.rightbar {
+    width: 93.17px;
+    height: 633.12px;
+    border-width: 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+/* Bottom section - Stays in position */
+.bottom {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 60px;
+    position: relative; /* Changed to prevent layout breaking */
+}
+
+
+
+ 
 
     
 
  
 .overall {
-    /* background-color: goldenrod; */
-    height:600px;
+  
+    margin-top:190px;
+    height:650px;
+    background-color:#F7F9FF;
 }
 
 .investment-container {
@@ -298,6 +330,7 @@ input[type="checkbox"]:checked {
     margin: auto;
     flex-wrap: wrap;
     margin-bottom:50px;
+   
 }
 
 
@@ -319,7 +352,7 @@ input[type="checkbox"]:checked {
 
 h3 {
     margin-bottom: 8px;
-    text-align: left; /* Centers only the heading */
+    text-align: left;
 }
 
 .investment-text {
@@ -331,8 +364,8 @@ h3 {
     width:300px;
 }
 .investment-containers {
-    display: flex; /* Places divs in the same row */
-    justify-content: space-between; /* Distributes space evenly */
+    display: flex; 
+    justify-content: space-between; 
     align-items: flex-start; /* Aligns items at the top */
     gap: 15px; /* Adjust space between boxes */
     width: 90%;
