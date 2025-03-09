@@ -10,7 +10,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+    max-width: 100%;
+    overflow-wrap: break-word;
+   
     
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+
 }
 .header {
     display: flex;
@@ -48,6 +57,7 @@
     display: flex;
     position: sticky;
     align-items: center;
+    width: 100%;
 }
 
 
@@ -313,11 +323,15 @@ body::-webkit-scrollbar {
 
     
 
- 
+
 .overall {
     
-    height:720px;
-    background-color:#F7F9FF;
+    justify-content: center;
+    height:auto;
+    width: 100%;
+    
+    /* background-color:#F7F9FF; */
+    background-color: gold;
 }
    
 .center {
@@ -333,12 +347,13 @@ body::-webkit-scrollbar {
 .investment-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 30px;
-    width: 90%;
+    width: 80%;
     margin: auto;
     flex-wrap: wrap;
     padding-top:20px;
+    
    
     margin-bottom:40px;
    
@@ -367,7 +382,7 @@ h3 {
 }
 
 .investment-text {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Poppins";
     color:#555555;
    
@@ -379,7 +394,7 @@ h3 {
     justify-content: space-between; 
     align-items: flex-start; 
     gap: 15px; 
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -429,6 +444,8 @@ h3 {
     display: flex;
     justify-content: space-between; 
     align-items: stretch;
+    width:100%;
+
     padding: 20px;
     height: 700px; 
     
@@ -571,6 +588,7 @@ h3 {
 * /* Main wrapper with black background */
 /* Main wrapper with black background */
 .main-container {
+    width:100%;
     background-color:#0D1226;
     padding: 20px;
     display: flex;
@@ -590,7 +608,7 @@ h3 {
     align-items: flex-start;
     flex-wrap:wrap;
     gap: 5px; /* Equal spacing between divisions */
-    max-width: 1200px;
+    /* max-width: 1200px;/ */
     width: 100%;
     /* background-color: goldenrod; */
     background-color:#0D1226;
